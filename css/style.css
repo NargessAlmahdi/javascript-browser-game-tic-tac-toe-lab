@@ -1,0 +1,109 @@
+/* h1 {
+  margin-top: 40px;
+  font-size: 55px;
+  font-family: "Squada One", serif;
+  color: aliceblue; */
+/* 
+} */
+
+/* h2 {
+  margin-top: 0;
+
+} */
+
+
+.titleimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  padding-top: 50px;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+}
+#message{
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+  color: #F4EF29;
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+  
+}
+
+
+.board {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -125%);
+  font-family: "Montserrat", serif;
+  font-weight: 850;
+
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 2px solid #F4EF29;
+  font-size: 90px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+  
+}
+
+
+body {
+  background-image: url(/Images/bg-01.tif);
+  background-size: contain;
+  background-position: center;
+    background-color: #16154F;
+    /* Use a system font, if none are available use an available sans-sarif */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+  #reset{
+    position: relative;
+    top: 100%;
+    left: 33%;
+    transform: translate(-50%, -1410%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    background-color: #0F0F33;
+    border-radius: 50px;
+    border-width: 3px;
+    border: 2px solid #F4EF29;
+    color: #F4EF29;
+    font-size: 19px;
+    font-family: "Outfit", sans-serif;
+    text-transform: capitalize;
+    padding: 5px;
+    cursor: pointer;
+    margin: 100px 50px 0px 100px;
+
+  }
+
+  #reset:hover{
+   
+    color: #ED1B84;
+    font-weight: bold;
+    border: 2px solid #ED1B84;
+  }
+
