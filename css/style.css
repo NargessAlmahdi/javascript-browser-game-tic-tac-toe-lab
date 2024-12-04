@@ -48,6 +48,7 @@
   transform: translate(-50%, -125%);
   font-family: "Montserrat", serif;
   font-weight: 850;
+  
 
 }
 
@@ -65,7 +66,7 @@
 
 
 body {
-  background-image: url(/Images/bg-01.tif);
+  background-image: url(Images/bg-01.tif);
   background-size: contain;
   background-position: center;
     background-color: #16154F;
